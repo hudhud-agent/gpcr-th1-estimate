@@ -19,6 +19,16 @@ h1 .proj { color:var(--acc); }
 nav.toc { display:flex; gap:10px; flex-wrap:wrap; margin:18px 0; }
 nav.toc a { color:var(--acc); text-decoration:none; background:var(--card); border:1px solid var(--line); padding:6px 14px; border-radius:20px; font-size:13px; }
 nav.toc a:hover { background:var(--card2); }
+.fil { background:var(--card2); color:var(--acc); border:1px solid var(--line); border-radius:16px; padding:4px 12px; font-size:12px; cursor:pointer; }
+.fil:hover { border-color:var(--acc); }
+.qitem { background:var(--card); border:1px solid var(--line); border-radius:10px; margin:8px 0; padding:0 14px; }
+.qitem summary { cursor:pointer; padding:10px 0; color:var(--acc); font-weight:600; }
+.qitem .qref { color:var(--mut); font-weight:400; font-size:12.5px; }
+.qitem .qadd { color:var(--mut); font-weight:400; font-size:12px; float:right; }
+.qbody { padding:4px 0 12px; border-top:1px solid #202a42; }
+.qlab { color:var(--amber); font-size:12px; font-weight:700; margin:8px 0 2px; text-transform:uppercase; letter-spacing:.5px; }
+.qtext { color:var(--txt); font-size:13.5px; line-height:1.55; }
+td.vend { color:var(--amber); font-weight:600; }
 .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:22px 0; }
 .stat { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
 .stat b { display:block; font-size:22px; color:var(--acc); }
@@ -229,6 +239,529 @@ footer { color:var(--mut); font-size:12.5px; margin-top:26px; padding-top:14px; 
       <div class="tablewrap"><table><thead><tr><th>#</th><th>Description</th><th>Unit</th><th>Rate (AED)</th></tr></thead>
       <tbody><tr><td class="idx">1</td><td class="desc">TBD 60X60 CEMENTSIDE L.GREY R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">2</td><td class="desc">TBD 60X60 CEMENTSIDE GREY R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">3</td><td class="desc">TBD 60X60 CEMENTSIDE GREIGE R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">4</td><td class="desc">TBD 60X60 CEMENTSIDE WHITE R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">5</td><td class="desc">TBD 60X60 ULTRA 2.0 S.GREY MAT R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">6</td><td class="desc">TBD 60X60 URBANCRETE MINK R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">7</td><td class="desc">TBD 60X60 RESINCRETE WHITE NEUTRAL R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">8</td><td class="desc">TBD 60X60 RESINCRETE WHITE FANGO R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">1</td><td class="desc">K952090R0001VTE0 60X60 CEMENTSIDE L.GREY R10 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">2</td><td class="desc">K952091R0001VTE0 60X60 CEMENTSIDE GREY R10 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">3</td><td class="desc">K952093R0001VTE0 60X60 CEMENTSIDE GREIGE R10 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">4</td><td class="desc">K952089R0001VTE0 60X60 CEMENTSIDE WHITE R10 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">5</td><td class="desc">K947640R0001VTSP 60X60 ULTRA 2.0 S.GREY MAT R10 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">6</td><td class="desc">K947187R0001VTE0 60X60 URBANCRETE MINK R10 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">7</td><td class="desc">K952126R0001VTE0 60X60 RESINCRETE WHITE NEUTRAL R10 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">8</td><td class="desc">K952128R0001VTE0 60X60 RESINCRETE WHITE FANGO R10 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">1</td><td class="desc">K952795R0001VTSP 60X120 CEMENTSIDE L.GREY R10 7R  </td><td class="unit">m2</td><td class="num">32.00</td></tr><tr><td class="idx">2</td><td class="desc">K952796R0001VTSP 60X120 CEMENTSIDE GREY R10 7R  </td><td class="unit">m2</td><td class="num">32.00</td></tr><tr><td class="idx">3</td><td class="desc">K952798R0001VTSP 60X120 CEMENTSIDE GREIGE R10 7R  </td><td class="unit">m2</td><td class="num">32.00</td></tr><tr><td class="idx">4</td><td class="desc">K952794R0001VTSP 60X120 CEMENTSIDE WHITE R10 7R  </td><td class="unit">m2</td><td class="num">32.00</td></tr><tr><td class="idx">5</td><td class="desc">K947640R0001VTSP 60X120 ULTRA 2.0 S.GREY MAT R10 7R  </td><td class="unit">m2</td><td class="num">32.00</td></tr><tr><td class="idx">6</td><td class="desc">K947469R0001VTSP 60X120 URBANCRETE MINK MAT R10 7R  </td><td class="unit">m2</td><td class="num">32.00</td></tr><tr><td class="idx">7</td><td class="desc">TBD 60X120 RESINCRETE WHITE NEUTRAL R10 7R  </td><td class="unit">m2</td><td class="num">32.00</td></tr><tr><td class="idx">8</td><td class="desc">TBD 60X120 RESINCRETE WHITE FANGO R10 7R  </td><td class="unit">m2</td><td class="num">32.00</td></tr><tr><td class="idx">1</td><td class="desc">TBD 60X60 CEMENTSIDE L.GREY R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">2</td><td class="desc">TBD 60X60 CEMENTSIDE GREY R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">3</td><td class="desc">TBD 60X60 CEMENTSIDE GREIGE R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">4</td><td class="desc">TBD 60X60 CEMENTSIDE WHITE R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">5</td><td class="desc">TBD 60X60 ULTRA 2.0 S.GREY MAT R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">6</td><td class="desc">TBD 60X60 URBANCRETE MINK R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">7</td><td class="desc">TBD 60X60 RESINCRETE WHITE NEUTRAL R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">8</td><td class="desc">TBD 60X60 RESINCRETE WHITE FANGO R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">1</td><td class="desc">TBD 30X60 CEMENTSIDE L.GREY R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">2</td><td class="desc">TBD 30X60 CEMENTSIDE GREY R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">3</td><td class="desc">TBD 30X60 CEMENTSIDE GREIGE R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">4</td><td class="desc">TBD 30X60 CEMENTSIDE WHITE R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">5</td><td class="desc">TBD 30X60 ULTRA 2.0 SILVER GREY FLAT R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">6</td><td class="desc">TBD 30X60 URBANCRETE MINK R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">7</td><td class="desc">TBD 30x60 RESINCRETE WHITE NEUTRAL R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr><tr><td class="idx">8</td><td class="desc">TBD 30X60 RESINCRETE WHITE FANGO R9 7R  </td><td class="unit">m2</td><td class="num">27.00</td></tr></tbody></table></div>
     </section>
+
+<h2 id="queries" style="margin:28px 0 6px; font-size:20px;">❓ Tender Queries Q&amp;A <span style="font-size:13px; color:var(--mut);">(85 queries · click to expand)</span></h2>
+<p class="legend">Full employer responses to the 85 tender queries issued in TA-03 (1–31) and TA-04 (32–85). MEP-tagged queries shown with a badge. Filter: <button class="fil" onclick="document.querySelectorAll('.qitem').forEach(e=>e.style.display=e.hasAttribute('data-mep')?'':'none')">MEP only</button> <button class="fil" onclick="document.querySelectorAll('.qitem').forEach(e=>e.style.display='')">All</button></p>
+
+      <details class="qitem">
+        <summary>Q1 · <span class="qref">SOPR</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">BIM: Referring to SOPR Appendix G Responsibility Matrix (B. Other Attendances - 4. Supply/Manufacture) Sl# 4.4 page 13 of 13, &amp; clause 7.8.1 of SOPR, please advise us whether the drawings in LOD 300 will be provided by the Employer and our scope is to further develop it up to LOD 400 &amp; LOD 500.</p>
+        <p class="qlab">Response:</p><p class="qtext">To follow EIR, which is part of SOPR Appendix - H</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q2 · <span class="qref">SOPR</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">The SOPR; Page 45; Clause 7.8.2 stipulates the following: “The Contractor will be given three (3) Unifier licenses free of charge, including Maintenance and for any additional requirement of Unifier licenses (up to maximum of fifteen (15) numbers) and pay for the license support and annual maintenance fee.” However Appendix I_Unifier Requirements specifies the following: Clause 1.12.c - The Contractor must purchase adequate number of licenses of Unifier for use by himself and his subcontractors’ staff. Clause 1.12.d - The Contractor must purchase a minimum of following licenses for its use, the Employer, Project Manager and Consultants for this Contract. -1) 15 Unifier Licenses. Clause 1.12.e - The Contractor must subscribe to Annual Maintenance Contract for Unifier for all purchased licenses, for the whole Contract duration. Please confirm that three licenses including the maintenance will be issued free of cost to the Contractor and Clause 1.12.c, Clause 1.12.d, and Clause 1.12e of Appendix I - Unifier Requirements are not applicable/mandatory.</p>
+        <p class="qlab">Response:</p><p class="qtext">3 Nos Unifier Licenses will be provided free of cost, including annual maintenance charges, which is normally sufficient for the project, as per previous history. It is Main Contractors discretion to extend the licences to his Sub contractors, for which he can purchase additional licenses (upto 15 Nos max) and annual maintenance subscription for the same will be additional for the Project duration. Clause 1.12d is NOT applicable for regular residential projects.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q3 · <span class="qref">Site</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Please Specify whether wild air is required for this project.</p>
+        <p class="qlab">Response:</p><p class="qtext">NO specific clause included in SOPR for &#x27;WILD AIR&#x27; for the projects. Referring to Clause 1.6 (68) - for the Protection of moisture sensitive products: 68. Protection of finishes, fixtures, furniture etc. shall be the sole responsibility of the Contractor. i. Contractor to ensure that moisture-sensitive products are protected from the effects of moisture, including high humidity, which may cause damage, deterioration, dimensional variations, and similar effects, during delivery, handling, storage, and installation and until the building mechanical systems have been tested and commissioned in accordance with the Employer’s requirements and the Specifications. ii. Appointed Contractor needs to protect as necessary all items requiring temperature control as part of their scope either on site or off site depending on the construction work progress all in accordance with the Employer’s requirements and the Specifications.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q4 · <span class="qref">Site</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">The contractor presumes that, main incoming cable from DEWA infrastructure network to KWH meter cabinet is done by others / DEWA / Client. Only 6m duct should be allowed as part of the contractor scope of work. Kindly confirm the same.</p>
+        <p class="qlab">Response:</p><p class="qtext">Confirmed. Termination inside the kWh meter cabinet part of the contractor scope.</p></div>
+      </details>
+
+      <details class="qitem" data-mep="1">
+        <summary>Q5 · <span class="qref">MEP</span> <span class="badge mep">MEP</span> <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">BOQ Page no. 114, Section R, Electrical Engineering Installations, item no. C, measures only collection &amp; Installation of KWH meter &amp; Its Cabinet. However, we presume that supply of the kWh meter &amp; cabinet free issued to the contractor by Client / others. Kindly clarify the same.</p>
+        <p class="qlab">Response:</p><p class="qtext">Kwh meter cabinet supply &amp; installation by contractor. kWh meter supply by DEWA and installation by contractor.</p></div>
+      </details>
+
+      <details class="qitem" data-mep="1">
+        <summary>Q6 · <span class="qref">MEP</span> <span class="badge mep">MEP</span> <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">BOQ Page no. 128, Section R, Electrical Engineering Installations, item no. E&amp;F, line-item measures “Provision – Containment only”. Whereas Video intercom system BOQ description measures Supply &amp; Install video intercom system completely. Please clarify the scope and furnish the revised BOQ Page for the same.</p>
+        <p class="qlab">Response:</p><p class="qtext">Video intercom supply &amp; installation as per FWA to be included by the contractor for Villas. For THs only intercom conduit with pull wires provisions to be considered.</p></div>
+      </details>
+
+      <details class="qitem" data-mep="1">
+        <summary>Q7 · <span class="qref">MEP</span> <span class="badge mep">MEP</span> <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">BOQ Page no. 127, Section R, Electrical Engineering Installations, measure complete fire detection and alarm system with Hassantuk panels. Whereas, appendix S, framework does not include the same. We presume that, supply of Hassantuk Panel with authority fee will be borne by the client. Please confirm the same.</p>
+        <p class="qlab">Response:</p><p class="qtext">Wireless FA system to be included part of contractor scope of works as per the assigned FWA specialist.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q8 · <span class="qref">SOPR</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Referring to the SOPR document page no.10, item no.12, specifies, Lighting control, emergency lighting, central battery &amp; Lightning protection system. However, the relevant system specifications, drawings, BOQ are not available. We presume that, above systems are not applicable for the intended project. Please Confirm the same.</p>
+        <p class="qlab">Response:</p><p class="qtext">Confirmed. Not applicable for Villas and TH.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q9 · <span class="qref">Site</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">The contractor presumes that, main incoming Fiber Optical Cable from existing Du/Etisalat infrastructure network to 12U/ONU cabinet is done by others Du/Etisalat / Client. Only 6m duct should be allowed as part of the contractor scope of work. Kindly confirm the same.</p>
+        <p class="qlab">Response:</p><p class="qtext">Confirmed. ONU Cabinet FO termination by the contractor.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q10 · <span class="qref">Site</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Kindly confirm Authority permanent connection fees for DEWA, Civil Defence, and Gas will be borne by the client / Employer.</p>
+        <p class="qlab">Response:</p><p class="qtext">DEWA/DCD: Permanent connection fees paid directly by the employer. However, it remains the contractor responsibility to follow up and obtain authorities invoices and achieve the connection in a timely manner for the successful completion of the project as per the project&#x27;s time for completion. Gas network fees by Employer. All other fees by contractor. Tenderer to make sure all Tie in connections are considered as per tender documents.</p></div>
+      </details>
+
+      <details class="qitem" data-mep="1">
+        <summary>Q11 · <span class="qref">MEP</span> <span class="badge mep">MEP</span> <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">BOQ Page no. 116, Section R, Electrical Engineering Installations, item C, measures only Conduits and junction box for the EV charger provision. We presume, EV Chargers with its respective cables, isolators and accessories are not part of the contractor scope of work. Please confirm the same.</p>
+        <p class="qlab">Response:</p><p class="qtext">EV charges in THs are a JB provision with pull wires only.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q12 · <span class="qref">FW Agreement</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Kindly provide the “Appendix U_ vendor agreement” for Polyethylene tank &amp; Ventilation fans since the detail for the same is missing.</p>
+        <p class="qlab">Response:</p><p class="qtext">No FWA applicable for Polyethylene tank &amp; Ventilation fans.</p></div>
+      </details>
+
+      <details class="qitem" data-mep="1">
+        <summary>Q13 · <span class="qref">MEP</span> <span class="badge mep">MEP</span> <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Referring to the specification Volume 5, Part C, Mechanical, Mechanical Section 02, 3.0 Pipe insulation, Clause 3.1, Section C, it is mentioned that insulation is not applicable for hot water pipe in case of using hot water circulation pump. However Please note that insulation remains a mandatory requirement to prevent heat loss, improve energy efficiency and maintain desired water temperature. Kindly reconfirm the requirement.</p>
+        <p class="qlab">Response:</p><p class="qtext">Please note that insulations requirements shall be as per Mechanical specifications section -02 subsection -3 (point -c) insulations shall be provided as applicable. All pipe work installed on the roof irrespective of hot or cold shall be insulated as per specifications. Requirements shall be followed as per specifications.</p></div>
+      </details>
+
+      <details class="qitem" data-mep="1">
+        <summary>Q14 · <span class="qref">MEP</span> <span class="badge mep">MEP</span> <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Referring to specification, Volume 5, Part C Mechanical, Mechanical Section 07, 13.0 Diffuser and Registers, Clause 13.4, 10 of 12, it is mentioned that the diffuser finish colour shall be approval of Ms. Emaar. Please note the standard finish colour shall be RAL 9010 or 9016. Kindly confirm if there is a specific colour requirement as per Ms. Emaar’s standard.</p>
+        <p class="qlab">Response:</p><p class="qtext">Diffuser finish shall be RAL 9010 to match adjacent walls. Sample to be approved by ID.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q15 · <span class="qref">SOPR</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">The SOPR; Page 21; Clause 3.2.4 stipulates the following: The Contractor shall be responsible for providing the Temporary Facilities for the Employer, Engineer and Consultants as described in Appendix P. Please note the followings in regard: 1. All vehicle requirements for Employer / Consultants shall be removed from the Contractor’s Scope. 2. Main Contractor does not allow any Laptop / Computers for the Consultants. However, in 015000 - TEMPORARY FACILITIES AND CONTROL page 5 of 14, Laptops &amp; Desktops are mentioned to be provided. For the avoidance of doubt, please confirm the following: 1. Any vehicle requirements including consumables (gas/salik/repairs/etc.) &amp; drivers for Employer / Consultants is not included in our scope of work. 2. Any laptops/desktop computers for the Employer and Consultants is not is not included in our scope of work.</p>
+        <p class="qlab">Response:</p><p class="qtext">SOPR will take precedence for the Temporary Facilities on Site. Please find enclosed the updated specification page.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q16 · <span class="qref">FW Agreement</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Framework: Please provide us with the Framework Agreement rates from the below Suppliers for Tiles as per Cutsheet shown in Townhouses_Material Specs. 1. Porcellan (for TL-01) 2. Mirage (for TL-103, TL-104, TL-105, TL-106, TL-108)</p>
+        <p class="qlab">Response:</p><p class="qtext">No framework agreements with Porcellan nor Mirage.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q17 · <span class="qref">Spares</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Spares: Please provide us the quantity or % of spare stocks required since only list are provided.</p>
+        <p class="qlab">Response:</p><p class="qtext">- Quantities are NOT required for the List of Spares for DLP stage, as the Main Contractor is on board during the DLP Stage. - Post DLP spares are required only for Guard house &amp; Community Centre, which should follow as per the Project Specification.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q18 · <span class="qref">Softscape</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Landscaping: Please confirm that soflandscaping (trees, bushes, grass, gravels, etc.) and irrigation works(if any) within and outside the plot limits are not included in our scope of work.</p>
+        <p class="qlab">Response:</p><p class="qtext">No soft landscaping and irrigation works in the contractors scope, however, the Contractor shall allow for all necessary coordination and adjoining tie-in works with the site-wide landscape contractor.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q19 · <span class="qref">Architectural</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Access Ladders: Please confirm that there are no requirement for fixed access ladders / cat ladders leading to the roof.</p>
+        <p class="qlab">Response:</p><p class="qtext">Kindly note that for townhouses, retractable ladders are required as indicated in the drawings. However, fixed ladders are required to be considered for community centre which has been issued as part of tender addendum.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q20 · <span class="qref">Structural</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Site Work: Kindly confirm only 1 layer of 250mm thick Road Base is required in this project.</p>
+        <p class="qlab">Response:</p><p class="qtext">As per soil report clause 8.2.6 for foundation ground preparation (boreholes where backfilling is required) 1 layer of road base material/structural fill material below proposed foundation level, placed in layers of thickness 250mm with each layer compacted to not less than 98% of the maximum dry density (without single failure test) BS: 1377:1990 Part 4 Cl 3.5.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q21 · <span class="qref">Structural</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Structural Work: In the structural package, two options are provided for each Townhouse Plex (STR-2001 &amp; STR-2002). Kindly specify which option to be considered for each plex in our offer.</p>
+        <p class="qlab">Response:</p><p class="qtext">The two options for foundation shall be considered as per the mentioned plot number in foundation layouts STR-2001 &amp; STR-2002. For Plot No. 5974047, foundation design shall be option No. 2</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q22 · <span class="qref">Door</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Openings: Referring to DRG no. GPCR-GEN SCH-AB-DRG-ZZZ-ARC-6201-00-DOOR SCHEDULES, the door of laundry area is labelled as Type D06. However, in the ID DRG no.GPCR-TH01-3BR-AB-DRG-IDN-GFL-3100-00 it is shown as Type D05. Please confirm that the door for laundry area is D06 as mentioned in the Architectural Door Schedule.</p>
+        <p class="qlab">Response:</p><p class="qtext">Please consider D05 as per the ID and architectural floor plan drawings. For all internal door please refer to the ID package. Kindly refer to the attached revised drawing.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q23 · <span class="qref">FLS</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Fire, Life &amp; Safety: Kindly provide us with the FLS drawings.</p>
+        <p class="qlab">Response:</p><p class="qtext">Kindly note that FLS drawings are not applicable for villas/townhouses.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q24 · <span class="qref">Architectural</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Referring to DRG no. GPCR-GEN SCH-AB-DRG-ZZZ-ARC-6111-00 - Glazing schedules, the Type GL-14 location is mentioned located at Master bath - 1st Floor (3BR). However, in DRG no. GPCR-TH01-4PB-AB-DRG-L01-ARC-1002-00 OVERALL FIRST FLOOR PLAN, the door type location is located at Bedroom 01- 1st Floor (4BR). Please advice.</p>
+        <p class="qlab">Response:</p><p class="qtext">Location shall be as shown on the plan. The location mentioned in the door schedule shall be revised accordingly. Kindly refer to the attached revised drawing. Highlighting the pelmet termination in relation to the glass door. Please ensure to capture this.</p></div>
+      </details>
+
+      <details class="qitem" data-mep="1">
+        <summary>Q25 · <span class="qref">Electrical</span> <span class="badge mep">MEP</span> <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Electrical: Please provide the Vendor list.</p>
+        <p class="qlab">Response:</p><p class="qtext">No Vendor list applicable, contractor to follow FWAs and project specification compliance.</p></div>
+      </details>
+
+      <details class="qitem" data-mep="1">
+        <summary>Q26 · <span class="qref">Electrical</span> <span class="badge mep">MEP</span> <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Electrical: Kindly clarify whether the pexel layout constitutes the cumulative model derived from all prototype layouts for both the three-bedroom and four-bedroom units.</p>
+        <p class="qlab">Response:</p><p class="qtext">Tender Query is not clear. Kindly clarify.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q27 · <span class="qref">General</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Kindly confirm that all soffits above the false ceiling shall be finished with anti-fungus black paint without plaster.</p>
+        <p class="qlab">Response:</p><p class="qtext">Kindly note that anti-fungus paint is required for slab soffit above false ceiling at wet areas only.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q28 · <span class="qref">General</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Kindly confirm that all walls above the false ceiling shall be finished with plaster and anti-fungus black paint</p>
+        <p class="qlab">Response:</p><p class="qtext">Kindly note that anti-fungus paint is required for walls above false ceiling at wet areas only.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q29 · <span class="qref">General</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Kindly confirm to apply cementitious waterproofing for shower walls and shall be applied up to above false ceiling level.</p>
+        <p class="qlab">Response:</p><p class="qtext">Confirmed, cementitious waterproofing shall be full height at shower areas extending 100mm above false ceiling.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q30 · <span class="qref">General</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Kindly confirm that the finishes for service shafts will be black paint.</p>
+        <p class="qlab">Response:</p><p class="qtext">Kindly note that only internal shafts more than 600mmx600mm size shall be finished with cement sand plaster and paint finish.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q31 · <span class="qref">General</span>  <span class="qadd">TA-03</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Kindly confirm that our scope is limited within the plot including the boundary wall for each plot. Outside plot is not part of our scope.</p>
+        <p class="qlab">Response:</p><p class="qtext">Confirmed, kindly note that scope within plot limit only is included as part of main contractor scope of work.</p></div>
+      </details>
+
+      <details class="qitem" data-mep="1">
+        <summary>Q32 · <span class="qref">MEP</span> <span class="badge mep">MEP</span> <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Please confirm that removal/relocation/protection/locating of any existing services (i.e. waterline, storm waterline, drainage line, manholes, sewerage lines, fire hydrants etc. And other obstructions such as substation, feeder pillar, service corridor, etc.. if any (within the surrounding plot) will be carried out by others before the Commencement of Main Works.</p>
+        <p class="qlab">Response:</p><p class="qtext">Kindly refer to the tender documents which include the external infrastructure design for reference. No rerouting / removing of existing utilities in the scope. However, Tenderer to ensure the existing utilities are protected during construction in line with the SOPR (Vol.3) for full requirements, which prevails. Tenderer will be required to coordinate with the other contractors including grading, infrastructure, and landscaping.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q33 · <span class="qref">General</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Please confirm that this is not a Design and Build project, only Construction works will be in the Main Contractor&#x27;s scope of works.</p>
+        <p class="qlab">Response:</p><p class="qtext">Fixed Price Lump Sum Contract. Refer to refer to ITT, FOT, CoC (Vol.1) and SOPR (Vol.3) for full requirements of scope.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q34 · <span class="qref">Infra</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">All type of Infrastructure works ,Tie in Connection and Tapping including asphalt works, hard landscaping, soft landscaping, site fixtures and furniture, road markings, signages, sewage network, storm water network, potable network, irrigation network, gas network, manholes and chambers, LV, MV &amp; HV networks, substation, telecom network, pull pits, chambers, feeder pillars, lighting poles and any other ancillary buildings, etc.. are not included in the Main Contractor&#x27;s scope of work. Please confirm</p>
+        <p class="qlab">Response:</p><p class="qtext">Contractor&#x27;s scope is inclusive of utility tie-in connection works; as follows: All wet and dry utility tie-in connections, containments and piping up to 15 meters from outside the plot boundary and inwards within the plot boundary of each villa including all builders work are under the Main Contractor&#x27;s Scope. Supply of KWH and Water meter shall be by DEWA, Tenderer to allow for installation and associated builders work (and the connection works). KWH meter cabinet and water meter enclosures is part of contractor scope of works. LV services incoming coordination is part of Main Contractor&#x27;s scope including termination inside the meter cabinets with all accessories. Supply &amp; installation of the Pocket Substation and DEWA incoming cable shall be by Employer. This is part of the infra works and permanent power connection charges. LPG/Gas incoming lines that rout from outside the plot boundary inwards are under the Main Contractor&#x27;s Scope; including all builders work (and the connection works). The Main Contractor to include in their scope coordinating the tie-in points with the infra contractor, infra consultant, and Authorities including all builders work. Feeder Piller C walls are under the Main Contractor scope. Tenderer to allow all the above as part of their lump sum offer (No Provisional Sums will be accepted).</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q35 · <span class="qref">Interior Design</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Please clarify the following: a. Walls above false ceiling areas are finished with plaster/finishes up to 10cm above false ceiling level for all wet/dry areas. b. Plaster is not required for the soffit of slab above false ceiling for wet/dry areas. c. Anti-fungus is not required for the soffit of slab above false ceiling for wet/dry areas. d. Internal surfaces of all MEP service shafts/air wells are without any plaster and paint. Otherwise, please provide the details and related BOQ for the same.</p>
+        <p class="qlab">Response:</p><p class="qtext">Please take the following into consideration: a. For all the wet/dry areas which have false ceiling the plaster/finishes to be extended 100mm above ceiling level. b. Plaster is not required; however, the slab soffit shall be properly leveled and finished to achieve a uniform and clean appearance. c. Anti-fungal Paint is required for the wall &amp; soffit above False Ceiling for WET Areas. d. For the MEP shafts, which are CLOSED from Top and not having any visibility from outside , please omit the Plaster &amp; Paint and consider ONLY penetrating Sealer, after making good the surface. (Removing Loose particles, Pointing the Block joint mortar, Repairing any potholes / honeycombs etc..)</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q36 · <span class="qref">General</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Site levelling/grading and temporary site access road up to each villa will be provided by the Client. Please confirm.</p>
+        <p class="qlab">Response:</p><p class="qtext">Logistics and access is Tenderer&#x27;s responsibility. Tenderer should refer to SOPR and Site Logistics Appendix. Maintenance of all construction roads within the masterplan is the a shared responsibility of all awarded contractors including this respective cluster future awarded contractor. However, all logistics and access roads within this cluster is the responsibility of the respective cluster awarded contractor.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q37 · <span class="qref">General</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">A levelled/compacted plot of land will be given in the vicinity of the site free of cost to establish the Contractor/Client site facilities, storage, laydown areas, etc.. Please confirm.</p>
+        <p class="qlab">Response:</p><p class="qtext">Approved areas allocated for contractors logistics including site offices to be aligned and coordinated with the overall master plan logistics plan and will be provided to the contractor free of cost subject to availability and overall delivery programme compliance.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q38 · <span class="qref">Architecture</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Please confirm that wet area waterproofing is not required for ground floor external terrace and entrance area.</p>
+        <p class="qlab">Response:</p><p class="qtext">Confirmed. Waterproofing is not required for ground floor external terrace and entrance area.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q39 · <span class="qref">Authorities</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Please confirm that all requisite NOC&#x27;s, permits and Authority approvals to enable us to commence the works will be readily available for our collection from all concerned Authority upon Award of Contract.</p>
+        <p class="qlab">Response:</p><p class="qtext">The Contractor shall receive necessary information and documents from the Engineer to secure permits/NOCs from the relevant authorities to commence the works as per a mutually agreed schedule.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q40 · <span class="qref">General</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Please Specify whether wild air is required for this project.</p>
+        <p class="qlab">Response:</p><p class="qtext">NO specific clause included in SOPR for &quot;WILD AIR&quot; for the projects - Referring to Clause 1.6 (68) - for the Protection of moisture sensitive products 68. Protection of finishes, fixtures, furniture etc. shall be the sole responsibility of the Contractor. i. Contractor to ensure that moisture-sensitive products are protected from the effects of moisture, including high humidity, which may cause damage, deterioration, dimensional variations, and similar effects, during delivery, handling, storage, and installation and until the building mechanical systems have been tested and commissioned in accordance with the Employer’s requirements and the Specifications. ii. Appointed Contractor needs to protect as necessary all items requiring temperature control as part of their scope either on site or off site depending on the construction work progress all in accordance with the Employer’s requirements and the Specifications.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q41 · <span class="qref">COC</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Please confirm that the Commencement of the Contract period will start once we receive all NOC&#x27;s, Building Demarcation Certificate, Building Permit, including DOT clearance, successful taking over from the enabling/demolition Contractor, etc.. whichever is later.</p>
+        <p class="qlab">Response:</p><p class="qtext">TQ is Not acceptable, The Contractor shall receive necessary information and documents from the Engineer to secure permits/NOCs from the relevant authorities to commence the works as per a mutually agreed schedule. Tenderer to Refer to Tender documents, SOPR and COC (Commencement date pre-requisites as stated in the Particular Conditions of Contract).</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q42 · <span class="qref">Interior Design</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Please clarify the type of finishes to be carried out for the following areas. A. Behind kitchen cabinet base unit B. Behind kitchen cabinet wall unit C. Behind tall units of kitchen cabinets D. Behind vanity counter cabinets</p>
+        <p class="qlab">Response:</p><p class="qtext">A.Plaster with paint finish B.Plaster with paint finish C.Plaster with Paint finish D.Plaster with Paint finish</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q43 · <span class="qref">General</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Please confirm that any cost or time impact due to changes/modifications in the requirements/design of any related Authorities, after award of this Contract is not in the Main Contractor&#x27;s scope of works.</p>
+        <p class="qlab">Response:</p><p class="qtext">This shall be dealt with in accordance with the CoC.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q44 · <span class="qref">General</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Please confirm that the testing and commissioning will be done upon availability of permanent power from the Authorities.</p>
+        <p class="qlab">Response:</p><p class="qtext">The Contractor shall be responsible for the provision of whatever temporary services may be required for the Works, including the testing and commissioning required to obtain authority approvals prior to the connection of permanent services. Further note that Testing and commissioning will be carried out on the basis of temporary services provided by the Contractor at his cost. Final commissioning will be completed on permanent services as and when available. It is the responsibility of the Contractor to carry out testing and commissioning as specified in the Tender Documents irrespective of the availability of permanent water and power from DEWA. No extension of time will be granted, if DEWA power is delayed.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q45 · <span class="qref">Structure</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Please confirm that non-epoxy coated steel reinforcement are to be used for this project.</p>
+        <p class="qlab">Response:</p><p class="qtext">Confirmed.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q46 · <span class="qref">Architecture/Acoustics</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Please confirm that this project does not have any special acoustic &amp; fire rating requirements. Otherwise, please provide the details and related BOQ item for the same.</p>
+        <p class="qlab">Response:</p><p class="qtext">Tenderer to follow acoustic report provided. For fire rating its not applicable for townhouses and standalone villas, however for community center the drawings have been issued as part of tender addendum.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q47 · <span class="qref">Architecture</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Kindly confirm if Damp proofing to the external walls is applicable in this project, if so, please provide BOQ for the same.</p>
+        <p class="qlab">Response:</p><p class="qtext">Kindly note that damp proofing is required for all external walls and internal walls at the ground floor level. Please refer to the snippet below for ease of reference. Refer attached drawing GPCR-GEN-AB-DRG-ZZZ-ARC-0102-01. Damp proof course already included in the BOQ under section G.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q48 · <span class="qref">Architecture</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Kindly confirm 50mm thick thermal insulation will be required for ceiling areas of which located between AC and Non-AC rooms.</p>
+        <p class="qlab">Response:</p><p class="qtext">Confirmed insulation is required between AC and Non AC Areas and these areas to be considered with cement board ceilings.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q49 · <span class="qref">Architecture</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Please clarify if Villa Signage Plate is not part of our scope of work. If Yes, please provide BOQ item and details.</p>
+        <p class="qlab">Response:</p><p class="qtext">Villa Signage Plate are to be excluded, this will be under a separate package, by others.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q50 · <span class="qref">Architecture</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Wheel stopper, corner Guard and any parking accessories are not applicable for this project. Please confirm.</p>
+        <p class="qlab">Response:</p><p class="qtext">Kindly note that the same is not required.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q51 · <span class="qref">Architecture</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Kindly specify the dimension,colour and finishes of the external pavers.</p>
+        <p class="qlab">Response:</p><p class="qtext">Please refer to the architectural material cutsheets which have been issued as part of Tender Documents.Snip provided below for easy reference.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q52 · <span class="qref">Structure</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Please confirm that Expansion joint is not applicable in this project.</p>
+        <p class="qlab">Response:</p><p class="qtext">Confirmed.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q53 · <span class="qref">Architecture</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Please confirm that EIFS is not applicable in this project.</p>
+        <p class="qlab">Response:</p><p class="qtext">Confirmed.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q54 · <span class="qref">Structure</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Please confirm that 50mm thick concrete blinding and 2 layer of polyethylene sheet will be required below foundations, tie beam and grade slab.</p>
+        <p class="qlab">Response:</p><p class="qtext">PCC 50 mm thick &amp; 1 layer of polythene sheet.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q55 · <span class="qref">Structure</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Kindly confirm selected compacted granular material will be required only below slab on grade and not applicable in below foundations. Please advise also the thickness required.</p>
+        <p class="qlab">Response:</p><p class="qtext">For Slab on grade compacted soil 95% MDD. For foundation contractor to follow the recommendations as per drawings 2001 &amp; 2002</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q56 · <span class="qref">Architecture</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Kindly confirm that all soft landscaping works and irrigation works including all accessories (with in townhouse&#x27;s plot limit) is not part of our scope of work.</p>
+        <p class="qlab">Response:</p><p class="qtext">Kindly note that no soft landscaping and irrigation works is in the contractors scope, however, the Contractor shall allow for all necessary coordination and adjoining tie-in works with the site-wide landscape contractor.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q57 · <span class="qref">Architecture</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Kindly provide schedule for proposed gate levels and plinth levels for each cluster.&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Kindly refer to Master plan drawings GPCR-GEN-AB-DRG-ZZZ-ARC-0280-00, GPCR-GEN-AB-DRG-ZZZ-ARC-0281-00 and GPCR-GEN-AB-DRG-ZZZ-ARC-0282-00.&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q58 · <span class="qref">Structure</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Please advise insulation below slab on grade is applicable to this project. If yes, please provide BOQ Item.&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Kindly note that thermal insulation is not required for external slab on grade areas (entrance and backyard terrace). However, 2 coats of cold applied rubberized bitumen emulsion (10% Rubber content) waterproofing below SOG is required.&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q59 · <span class="qref">Structure</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Kindly provide structural details for garbage room like SOG, column, coping beams and etc.&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Structural details for garbage room are provided in drawings 9001, 9002 &amp; 9003&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q60 · <span class="qref">Structure</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Kindly provide structural details and finishes of concrete steps at entrance of all villas as shown in Ground Floor.&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;The reinforced concrete steps dimensions and reinforcement shall be submitted shortly&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q61 · <span class="qref">Structure</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Please clarify protection screed and protection board is not required for substructure waterproofing system for all townhouses/ villas.&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;The water proofing is (SBS membrane torch applied 4mm thk - 2 layers) or (SBS fully bonded – 1 layer) for TH01, protection screed/board are required.&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q62 · <span class="qref">Architecture</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Please clarify if insulation is required to Ceiling of Non AC and AC Areas. If Yes, please provide BOQ Item.&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Refer query Item 48. Thermal insulation already included in the BOQ together with the cement board ceiling (BOQ page 73)&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q63 · <span class="qref">Architecture</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Please advise Parking Number Marking &amp; Road marking Signages is not applicable to this project.&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Not applicable.&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q64 · <span class="qref">Structure</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Please confirm that corrosion inhibitor is not required for all substructure concrete.&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Confirmed.&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q65 · <span class="qref">Architecture</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Please provide the detailed sections of vertical waterproofing for wet areas. We assume full height for shower areas, 1.20m height for vanity &amp; wc areas and 30cm height for general wet areas. Please confirm.&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Tenderer to consider wet areas waterproofing extended 100mm above and besides of any MEP Point on the Wall, which is summarized as follows – -1200mm high waterproofing to WC and vanity unit area. -Full height waterproofing at shower and bathtub area. -1200mm high waterproofing to the Wet Locations of the kitchen, pantry, and similar functions -1200mm high waterproofing to the Wet Locations of the laundry -General Area – 300mm from FFL&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q66 · <span class="qref">General</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Kindly confirm us factory visit outside UAE is not required for this project&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Its not required&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q67 · <span class="qref">General</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Please confirm that working during night shift will be allowed during the construction.&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Refer to SOPR: Contractor to work within normal working hours (day shift). Any out of hours working including night shift work, public holidays etc. will require written approval from the Engineer/Employer. Subject to full compliance with authorities regulations&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q68 · <span class="qref">Architecture</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Please provide the Master plan showing boundary wall layout for the plot&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Kindly refer to the submitted master plan drawings.&quot;</p></div>
+      </details>
+
+      <details class="qitem" data-mep="1">
+        <summary>Q69 · <span class="qref">Electrical</span> <span class="badge mep">MEP</span> <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Electrical: To clarify, we are following the lighting and ID layout only. The perspective layout is not included in our consideration.&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Not acceptable. Perspective layouts shall be included as per the Architecture and ID layouts.&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q70 · <span class="qref">Finishes</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Finishes: Kindly confirm no plaster and no finish for walls above false ceiling of dry areas.&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Kindly note that plaster and finish are required on walls 100mm above false ceiling of all dry areas. Remaining wall height require penetrating sealer coat, after making good the surface to the satisfaction of the Supervision Consultant.&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q71 · <span class="qref">Finishes</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Finishes: Kindly confirm no plaster and no finish for ceiling soffit above false ceiling of dry areas.&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Kindly note that no plaster nor finishes are required on slab soffit above ceiling for dry areas. Penetrating sealer coat is required after making good the soffit to the satisfaction of the Supervision Consultant.&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q72 · <span class="qref">Finishes</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Finishes: Kindly confirm no plaster and no finish for walls above false ceiling of wet areas.&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Kindly note that plaster and finishes are required for walls 100mm above false ceiling for wet areas, subjected to manage the interface between Plaster, Wall Tile &amp; False Ceiling Fixing and require anti-fungal paint or penetrating sealer coat, after making good the surface to the satisfaction of the Supervision Consultant.&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q73 · <span class="qref">Finishes</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Finishes: Kindly confirm no plaster and no finish for ceiling soffit above false ceiling of wet areas.&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Kindly note that plaster is not required, however, anti-fungus paint is required for slab soffit above false ceiling for wet areas.&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q74 · <span class="qref">Waterproofing</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Waterproofing: Kindly confirm 300 mm high wet area waterproofing only to the wall of Laundry.&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Refer Item 65 above&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q75 · <span class="qref">Scope of Works</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Reference to the documents provided in TA#2, for the Community Center and Guardhouse packages, please confirm the following items below are not included in our scope of work: 1. Swimming (adult &amp; kids) pool civil works and any related MEP provision &amp; equipments (filtration systems, pumps, heaters, sanitization, lights, etc.) 2. Splash pads civil works and any related MEP provision &amp; all equipments 2. Swimming pool &amp; splash pads furnitures, accessories &amp; play equipments 3. External Hardscaping and paving works 4. Soft landscaping, irrigation works and related furnitures 5. Fabric (acrylic or HDPE) canopies and related steel post 6. Outdoor shower and BBQ areas 7. Outdoor Gym &amp; Play Equipments 8. Fences&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Confirmed for all.&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q76 · <span class="qref">&quot;&quot;</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">&quot;Reference to the drawing no. GPCR-TH01-4PB-AB-DRG-ZZZ-ARC-0004-00-PERSPECTIVES (first snippet highlighted with an arrow below), shows that the ceiling is extending on the sides of the roof. However, reference to the drawing no. GPCR-TH01-4PB-AB-DRG-L01-ARC-1702-00-FIRST FLOOR - RCP (second snippet highlighted with an arrow below), the sides are not shown. Please advice and provide us with the RCP for roof area.&quot;</p>
+        <p class="qlab">Response:</p><p class="qtext">&quot;Kindly note that the highlighted area does not have a false ceiling, the finish is only plaster and paint at the soffit of the slab.&quot;</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q77 · <span class="qref">Architectural</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Reference to drawing no. GPCR-TH01-4PA-AB-DRG-GFL-ARC-1701-00-GROUND FLOOR - RCP for 4 plex Style A, the ceiling finish type is shown as PT-01 only (as shown marked in Snippet 1). However, in drawing no. GPCR-TH01-6PA-AB-DRG-GFL-ARC-1701-00-GROUND FLOOR - RCP and GPCR-TH01-8PA-AB-DRG-GFL-ARC-1701-00-GROUND FLOOR - RCP for 6 &amp; 8 Plex style A respectively, the ceiling finishes type is shown as PT-01 &amp; CB-01 (shown in snippet 2 &amp; 3). Please advice if 4 plex Style A shall be PT-01 only or it has to be CB-01 &amp; PT-01 similar with 6 &amp; 8 plex Style A.</p>
+        <p class="qlab">Response:</p><p class="qtext">Kindly refer to the enclosed revised drawings. Please consider the update as clouded in drawings.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q78 · <span class="qref">Architectural</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Reference to Drawing no. GPCR-GEN-AB-DRG-ZZZ-ARC-0105-01-MISCELLANEOUS DETAIL SHEET 05, Balcony Detail 7 for 5BDR, 20mm thick Aluminium Coping is shown. Please clarify if this is applicable to all PLEX balconies. If yes, please provide us with the following: 1. Please provide us with the BOQ item and quantity for the same. 2. Please provide us with the fixing details of the coping since the installation will be difficult as it is in-between the balustrades (shown in below snippet)</p>
+        <p class="qlab">Response:</p><p class="qtext">Kindly note that the aluminum coping is not applicable for the townhouses (plexes), however, applicable for the standalone villas only which are not part of TH01 community. However, please refer to the revised drawing where the detail has been updated.</p></div>
+      </details>
+
+      <details class="qitem" data-mep="1">
+        <summary>Q79 · <span class="qref">Electrical</span> <span class="badge mep">MEP</span> <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Electrical: Please provide specification for the Emergency lighting.</p>
+        <p class="qlab">Response:</p><p class="qtext">Emergency lighting is applicable only in the community center &amp; guard house as elf contained battery operated with remote monitoring type in compliance with DCD. Fittings aesthetic selection subject to ID approval</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q80 · <span class="qref">Architectural</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Reference to the DRG. GPCR-GEN-GRB-AB-DRG-ZZZ-ARC-8001-00-GARBAGE AREA DETAILS. please provide us with the type water proofing system required for the garbage room roof area.</p>
+        <p class="qlab">Response:</p><p class="qtext">Kindly note that for the garbage room of 3bedroom unit there is a room above, hence, no waterproofing is required where highlighted.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q81 · <span class="qref">Volume 2 - BOQ BOQ Page 28, item G &amp; H</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Metal Works: Reference to the BOQ for Aluminium Coping, mentioning the size to be 30x30mm powder coated aluminium coping feature. However, in drawing no. GPCR-GEN-FDA-AB-DRG-ZZZ-ARC-5001-00 and GPCR-GEN-AB-DRG-ZZZ-ARC-0102-00 detail 2, the coping indicates a more bigger size of 30x100mm (shown in below snippet). Please advice which one to follow.</p>
+        <p class="qlab">Response:</p><p class="qtext">Refer to the updated alum coping size in BOQ page 28</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q82 · <span class="qref">SOPR</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">The SOPR; Page 58; Clause 11.1 stipulates the following: “The Contractor shall complete a Mock-up of one (1) number Townhouse as selected by the Employer on a suitable location within the Site agreed to by the Engineer. ” &quot;The installation will be the first in place quality control prototype of the first unit. &quot; However, Drawing no. GPCR-MPL-AB-DRG-ZZZ-ARC-0101-00 indicates several Prototype Plots, as shown in the snippets below.. PROTOTYPE PLOTS Please confirm that only one (1) number of Townhouse will be implemented as the first-in-place unit to serve as the reference for quality control and detailing, which shall be reviewed and approved by the Employer and the Engineer prior to proceeding with the subsequent works.</p>
+        <p class="qlab">Response:</p><p class="qtext">Confirmed</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q83 · <span class="qref">SOPR</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Office Space Requirements: The Appendix-E_Logistic Plan provides Office Space requirements. Similarly, the Appendix-P_Engineer&#x27;s Office Requirements Cover Letter mentions &quot;Attachment will be issued in due course&quot;. APPENDIX: P ENGINEER&#x27;S OFFICE REQUIREMENTS (COVER PAGE EXCLUDING THIS COVER PAGE) Attachment will be issued in due course. And in Volume 5 Part A1 - 015000 - TEMPORARY FACILITIES AND CONTROLS, Clause 2.2, page no. 4 of 14 mentions Client Site Office Space Requirement. Please Advice which one to follow. If Appendix P is to be followed, please provide us with the missing requirement.</p>
+        <p class="qlab">Response:</p><p class="qtext">Emaar Projects Response: Offices are not required for the Employer’s team. Engineer’s office: Bidders to allow for 450 m2 Engineers offices considering the following: •Single story site office with all connected utilities such as water tank, septic tank, generator set with fuel tank fully compliant with authorities requirements. The office supplied with air conditions for each room and shall be fully furnished (basic brand-new furniture such as tables, desks, chairs, …etc) to accommodate the following personnel •Engineer RE 1 room with toilet. •Electrical and Mechanical Engineers 1 room •Structural Engineer and Architect 1 room •Planning engineer &amp; HSE Engineer 1 room •QS 1 room •Inspectors Room to accommodate 6 inspectors. •Pantry. •Conference room 1 no. •Meeting room 1 no. •Sample room 1 no. •Prayer room 1 no. •Washroom / Toilet cubicles with semi pedestal wash basins. bidder to allow for laser printer A3 &amp; A4 in addition to plotter A0 &amp; A1 and appliances such as fridge, electric heater, electric cooker, microwave in the pantry room. No requirements for any hardware or software other than the above and server rack with internet access points to ensure full internet coverage in the office. Server and computers shall be arranged by the Engineer. Bidder to allow for operation, servicing and maintenance including consumables for the Engineer’s office for the overall project duration which includes 1 no. office boy, cleaner.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q84 · <span class="qref">Temporary Facilities</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Reference to 015000 - TEMPORARY FACILITIES AND CONTROLS, Clause 2.5, page 5 of 14, please provide us with the IT requirements for the Employer &amp; Consultant Offices</p>
+        <p class="qlab">Response:</p><p class="qtext">Please refer to our response to Item No. 83 above.</p></div>
+      </details>
+
+      <details class="qitem">
+        <summary>Q85 · <span class="qref">Site</span>  <span class="qadd">TA-04</span></summary>
+        <div class="qbody"><p class="qlab">Query:</p><p class="qtext">Site Works: We noticed water logged areas indicated in the provided topography survey (ARC-0200). However, no such water logged conditions were observed during our site site. Kindly provide the final grading levels that will be handed over to the Main Contractor, if they differ from the levels and conditions shown in the provided topography survey (ARC-0200).</p>
+        <p class="qlab">Response:</p><p class="qtext">Please refer to the attached layout.</p></div>
+      </details>
+
+<h2 id="boqmap" style="margin:28px 0 6px; font-size:20px;">🧾 BOQ → Framework Rate Mapping</h2>
+
+<div class="stats"><div class="stat"><b>93</b><span>Sanitaryware</span></div><div class="stat"><b>43</b><span>Wiring Accessories</span></div><div class="stat"><b>18</b><span>KWH/MDB/DB</span></div><div class="stat"><b>14</b><span>Converged Network</span></div><div class="stat"><b>12</b><span>Isolators</span></div><div class="stat"><b>11</b><span>Fire Alarm</span></div><div class="stat"><b>3</b><span>Video Intercom</span></div>
+  <div class="stat"><b>194</b><span>BOQ items mapped to framework rates</span></div>
+  <div class="stat"><b>449</b><span>MEP items needing manual pricing</span></div>
+</div>
+<div class="legend">Framework vendor rates (TA1) attached to matching BOQ line items (Rev.01, 1,263 items extracted). Unmapped MEP items (Sections Q/R) require manual rate build-up.</div>
+<div class="tablewrap"><table><thead><tr><th>BOQ Code</th><th>Description</th><th>Section</th><th>Framework Vendor</th></tr></thead><tbody><tr><td class="idx">B</td><td class="desc">Dry Gully Trap, Ref. GT</td><td class="unit">Q</td><td class="vend">Converged Network</td></tr><tr><td class="idx">D</td><td class="desc">KW-101.1, Bottle Trap</td><td class="unit">Q</td><td class="vend">Converged Network</td></tr><tr><td class="idx">E</td><td class="desc">Gateways and routers</td><td class="unit">Q</td><td class="vend">Converged Network</td></tr><tr><td class="idx">G</td><td class="desc">Balcony Drain with Built in Trap</td><td class="unit">Q</td><td class="vend">Converged Network</td></tr><tr><td class="idx">G</td><td class="desc">KE-103, Bottle Trap</td><td class="unit">Q</td><td class="vend">Converged Network</td></tr><tr><td class="idx">H</td><td class="desc">Ref. SW-09, Soap dispenser</td><td class="unit">K</td><td class="vend">Converged Network</td></tr><tr><td class="idx">H</td><td class="desc">Wireless access point ceiling mounted</td><td class="unit">R</td><td class="vend">Converged Network</td></tr><tr><td class="idx">J</td><td class="desc">Wireless access point wall mounted, W/P</td><td class="unit">R</td><td class="vend">Converged Network</td></tr><tr><td class="idx">L</td><td class="desc">Sand Trap, (Ref. ST)</td><td class="unit">Q</td><td class="vend">Converged Network</td></tr><tr><td class="idx">N</td><td class="desc">310mm wide, laid to slop, to Handicap Toilet, at service block</td><td class="unit">J</td><td class="vend">Converged Network</td></tr><tr><td class="idx">N</td><td class="desc">Ref. SW-107, Soap Dispenser</td><td class="unit">K</td><td class="vend">Converged Network</td></tr><tr><td class="idx">N</td><td class="desc">Gully Trap, (Ref. GT)</td><td class="unit">Q</td><td class="vend">Converged Network</td></tr><tr><td class="idx">U</td><td class="desc">Ref. SW-303, deck mounted touchless soap dispenser</td><td class="unit">K</td><td class="vend">Converged Network</td></tr><tr><td class="idx">Y</td><td class="desc">Ref. SW-307, wall mounted touchless soap dispenser</td><td class="unit">K</td><td class="vend">Converged Network</td></tr><tr><td class="idx">A</td><td class="desc">Smoke detector wireless with built-in sounder</td><td class="unit">R</td><td class="vend">Fire Alarm</td></tr><tr><td class="idx">B</td><td class="desc">Heat detector wireless with buil-in sounder</td><td class="unit">R</td><td class="vend">Fire Alarm</td></tr><tr><td class="idx">D</td><td class="desc">Fire alarm Hassantuk control panel ATE/4G/GSM</td><td class="unit">R</td><td class="vend">Fire Alarm</td></tr><tr><td class="idx">E</td><td class="desc">Fire alarm repeater panel</td><td class="unit">R</td><td class="vend">Fire Alarm</td></tr><tr><td class="idx">L</td><td class="desc">Fire alarm manhole, 600mm(L) x 600mm (W) x 800 (D)</td><td class="unit">R</td><td class="vend">Fire Alarm</td></tr><tr><td class="idx">M</td><td class="desc">Fire alarm sounder flasher W/P</td><td class="unit">R</td><td class="vend">Fire Alarm</td></tr><tr><td class="idx">N</td><td class="desc">Fire alarm sounder or horn with flasher W/P</td><td class="unit">R</td><td class="vend">Fire Alarm</td></tr><tr><td class="idx">Q</td><td class="desc">Fire alarm control panel at service block</td><td class="unit">R</td><td class="vend">Fire Alarm</td></tr><tr><td class="idx">R</td><td class="desc">Fire alarm control panel at guard house</td><td class="unit">R</td><td class="vend">Fire Alarm</td></tr><tr><td class="idx">T</td><td class="desc">Fire alarm device points</td><td class="unit">R</td><td class="vend">Fire Alarm</td></tr><tr><td class="idx">V</td><td class="desc">Cabling to fire alarm repeater panel</td><td class="unit">R</td><td class="vend">Fire Alarm</td></tr><tr><td class="idx">F</td><td class="desc">Intelligent optical smoke detector with built-in isolator</td><td class="unit">R</td><td class="vend">Isolators</td></tr><tr><td class="idx">G</td><td class="desc">Intelligent optical smoke detector with remote indicator and built-in isolator</td><td class="unit">R</td><td class="vend">Isolators</td></tr><tr><td class="idx">H</td><td class="desc">Intelligent heat detector with built-in isolator</td><td class="unit">R</td><td class="vend">Isolators</td></tr><tr><td class="idx">J</td><td class="desc">Manual call point with built-in isolator</td><td class="unit">R</td><td class="vend">Isolators</td></tr><tr><td class="idx">K</td><td class="desc">Manual call point with built-in isolator, W/P</td><td class="unit">R</td><td class="vend">Isolators</td></tr><tr><td class="idx">L</td><td class="desc">20A SPN Isolators</td><td class="unit">R</td><td class="vend">Isolators</td></tr><tr><td class="idx">M</td><td class="desc">32A SPN Isolators</td><td class="unit">R</td><td class="vend">Isolators</td></tr><tr><td class="idx">N</td><td class="desc">40A SPN Isolators</td><td class="unit">R</td><td class="vend">Isolators</td></tr><tr><td class="idx">P</td><td class="desc">32A TPN Isolators</td><td class="unit">R</td><td class="vend">Isolators</td></tr><tr><td class="idx">Q</td><td class="desc">40A TPN Isolators</td><td class="unit">R</td><td class="vend">Isolators</td></tr><tr><td class="idx">R</td><td class="desc">63A TPN Isolators</td><td class="unit">R</td><td class="vend">Isolators</td></tr><tr><td class="idx">S</td><td class="desc">200A TPN Isolators</td><td class="unit">R</td><td class="vend">Isolators</td></tr><tr><td class="idx">A</td><td class="desc">Two component solvent free pigmented high build epoxy floor coating system with a built up thickness of 1 mm, </td><td class="unit">J</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">A</td><td class="desc">Supply &amp; Installation of kWH meter cabinet IP55, 400A TP MCCB, including installation of DEWA supplied kWH met</td><td class="unit">R</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">A</td><td class="desc">DB-CH, 21.67kW</td><td class="unit">R</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">A</td><td class="desc">100mm Dia uPVC duct / conduit for cables to DB-GFs</td><td class="unit">R</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">B</td><td class="desc">Supply &amp; Installation of kWH meter cabinet IP55, 80A / 63ATP MCCB, including installation of DEWA supplied kWH</td><td class="unit">R</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">B</td><td class="desc">DB-SB, 26.39kW</td><td class="unit">R</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">B</td><td class="desc">50mm Dia uPVC duct / conduit for cables to DB-FFs</td><td class="unit">R</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">C</td><td class="desc">Supply &amp; Installation of kWH meter cabinet IP55, 40ATP MCCB, including  installation of DEWA supplied kWH mete</td><td class="unit">R</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">C</td><td class="desc">DB-GYM &amp; YOGA, 38kW</td><td class="unit">R</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">D</td><td class="desc">DB-PUMP ROOM, 8kW</td><td class="unit">R</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">E</td><td class="desc">Moisture resistant paint satin finish RAL 9010 to Pump / MDB Room</td><td class="unit">J</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">E</td><td class="desc">DB-LS, 6kW</td><td class="unit">R</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">F</td><td class="desc">DB-GF (4B), 35kW</td><td class="unit">R</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">G</td><td class="desc">DB-FF (4B), 23kW</td><td class="unit">R</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">H</td><td class="desc">DB-GF (3B), 28kW</td><td class="unit">R</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">J</td><td class="desc">DB-FF (3B), 18.44kW</td><td class="unit">R</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">K</td><td class="desc">DB-GR, 15kW</td><td class="unit">R</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">N</td><td class="desc">Two component solvent free pigmented high build epoxy system suitable for vertical applications, 100mm high, T</td><td class="unit">J</td><td class="vend">KWH/MDB/DB</td></tr><tr><td class="idx">A</td><td class="desc">530mm W x 1570mm L x 280mm H; to FF Master bathroom</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">A</td><td class="desc">500mm W x 1570mm L x 50mm H; to FF Master bathroom</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">A</td><td class="desc">200mm W x 950mm L x  20mm H; to FF master bathroom</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">A</td><td class="desc">200mm W x 1050mm L x 1260mm H; to FF bathroom 1</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">A</td><td class="desc">Bathtub Glass Partition, size 800mm W x 1900mm H - 4bed bathroom 1</td><td class="unit">H</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">A</td><td class="desc">Shower Glass Partition, size 1465mm W x 2400mm H including 1No of GL-01, Single Swing Glass Door size 700mm W </td><td class="unit">H</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">A</td><td class="desc">Ref. ST-104, Et Calacatta Gold Reconstituted Stone, 12mm thick - Kitchen &amp; Bathroom Backsplash</td><td class="unit">J</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">A</td><td class="desc">Bathtub Ledge, size 1750mm L x 900mm W x 500mm H</td><td class="unit">K</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">A</td><td class="desc">Size 600mm W x 1000mm H, to Maid Bathroom</td><td class="unit">K</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">A</td><td class="desc">SW-100, Wash Basin Mixer</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">A</td><td class="desc">KW-100, Sink Mixer</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">A</td><td class="desc">SW-100, Touchless Basin Mixer</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">A</td><td class="desc">SW-101, Wash Basin (Wall Mounted w/ Half Pedestal)</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">AA</td><td class="desc">Ref. SW-311, wall mounted shower seat</td><td class="unit">K</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">B</td><td class="desc">530mmW x 1200mmL x 280mmH; to FF Master bathroom</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">B</td><td class="desc">500mmW x 1200mmL x 50mmH; to FF Master bathroom</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">B</td><td class="desc">200mm W x 700mm L x  20mm H; to FF bathroom 1</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">B</td><td class="desc">200mmW x 200mmL x 1260mmH; to FF master bathroom</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">B</td><td class="desc">200mm W x 1170mm L x 1260mm H; to FF master bathroom</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">B</td><td class="desc">D03, Single Leaf Timber Door, size 900mm W x 2200mm H, to Bathrooms</td><td class="unit">H</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">B</td><td class="desc">Shower Glass Partition, size 1125mm W x 2400mm H including 1No of GL-01, Single Swing Glass Door size 700mm W </td><td class="unit">H</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">B</td><td class="desc">Ref. ST-105, Grey Emperador Polished Stone, 20mm thick, To Bathroom threshold stone continuation on wall holdi</td><td class="unit">J</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">B</td><td class="desc">Cistern enclosure, Size 890mm L x 200mm W x 1200mm H</td><td class="unit">K</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">B</td><td class="desc">Size 400mm W x 800mm H, to Maid Bathroom</td><td class="unit">K</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">B</td><td class="desc">SW-101, Wash Basin Mixer</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">B</td><td class="desc">SW-101, Basin Mixer</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">B</td><td class="desc">SW-102, Water Closet (Floor Standing)</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">C</td><td class="desc">530mm W x 1050mm L x 280mm H; to FF bathroom 1</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">C</td><td class="desc">500mm W x 1050mm L x 50mm H; to FF bathroom 1</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">C</td><td class="desc">200mm W x 700mm L x  20mm H; to FF bathroom 2</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">C</td><td class="desc">200mmW x 200mmL x 1260mmH; to FF bathroom 1</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">C</td><td class="desc">200mm W x 920mm L x 1260mm H; to GF guest bathroom</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">C</td><td class="desc">Vertically; to wc &amp; vanity areas, 1200mm high</td><td class="unit">G</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">C</td><td class="desc">Shower Glass Partition, size 1125mm W x 2400mm H including 1No of GL-01, Single Swing Glass Door size 700mm W </td><td class="unit">H</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">C</td><td class="desc">Shower Glass Partition, size 1360mm W x 2400mm H including 1No of GL-01, Single Swing Glass Door size 700mm W </td><td class="unit">H</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">C</td><td class="desc">Ref. ST-105, Grey Emperador Polished Stone, 20mm thick, To Bathroom threshold stone continuation on wall holdi</td><td class="unit">J</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">C</td><td class="desc">Cistern enclosure, Size 900mm L x 200mm W x 1200mm H</td><td class="unit">K</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">C</td><td class="desc">SW-103, Wash Basin Mixer (Single Lever)</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">D</td><td class="desc">530mm W x 900mm L x 280mm H; to GF guest bathroom</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">D</td><td class="desc">500mm W x 900mm L x 50mm H; to GF guest bathroom</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">D</td><td class="desc">200mmW x 900mmL x 20mmH; to FF master bathroom</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">D</td><td class="desc">200mmW x 200mmL x 1260mmH; to GF guest bathroom</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">D</td><td class="desc">200mmW x 900mmL x 1260mmH; to FF bathroom 1</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">D</td><td class="desc">Vertically; full ht up to suspended ceiling to shower areas</td><td class="unit">G</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">D</td><td class="desc">Shower Glass Partition, size 1450mm W x 2400mm H including 1No of GL-01, Single Swing Glass Door size 700mm W </td><td class="unit">H</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">D</td><td class="desc">Ref. ST-105, Grey Emperador Polished Stone, 20mm thick, To Bathroom threshold stone continuation on wall holdi</td><td class="unit">J</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">D</td><td class="desc">Cistern enclosure, Size 905mm L x 200mm W x 1200mm H</td><td class="unit">K</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">D</td><td class="desc">SW-103, Rain Shower Set</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">D</td><td class="desc">SW-103, Wall Mounted Shower Set</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">E</td><td class="desc">530mm W x 900mm L x 280mm H; to FF bathroom 2</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">E</td><td class="desc">500mm W x 900mm L x 50mm H; to FF bathroom 2</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">E</td><td class="desc">200mmW x 200mmL x 1260mmH; to FF master bathroom</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">E</td><td class="desc">200mmW x 900mmL x 1260mmH; to FF bathroom 2</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">E</td><td class="desc">Ref. ST-103, Et Calacatta Gold Reconstituted Stone, 20mm thick, To Bathtub Top Ledge</td><td class="unit">J</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">E</td><td class="desc">Ref. ST-103, Et Calacatta Gold Reconstituted Stone, 200mm wide - Cistern Cover</td><td class="unit">J</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">E</td><td class="desc">Cistern enclosure, Size 970mm L x 200mm W x 1200mm H</td><td class="unit">K</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">E</td><td class="desc">SW-104, Hand Shower Set + Exposed Mixer</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">E</td><td class="desc">KE-101, Sink Mixer</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">E</td><td class="desc">SW-104, Wall Mounted Shower Set</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">F</td><td class="desc">530mmW x 900mmL x 280mmH; to FF bathroom 1</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">F</td><td class="desc">500mmW x 900mmL x 50mmH; to FF bathroom 1</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">F</td><td class="desc">200mm W x 700mm L x 20mm H; to GF guest bathroom</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">F</td><td class="desc">200mmW x 200mmL x 1260mmH; to FF bathroom 1</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">F</td><td class="desc">Ref. SW-318, wc back rest</td><td class="unit">K</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">F</td><td class="desc">Shower Linear Drain</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">F</td><td class="desc">SW-105, Rain Shower Set</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">F</td><td class="desc">SW-105, Wall Mounted Mixer with Long Spout</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">F</td><td class="desc">SW-01, Wash Basin (Sink)</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">G</td><td class="desc">200mmW x 710mmL x 20mmH; to FF bathroom 1</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">G</td><td class="desc">200mmW x 200mmL x 1260mmH; to FF bathroom 2</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">G</td><td class="desc">200mmW x 800mmL x 1260mmH; to FF master bathroom</td><td class="unit">F</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">G</td><td class="desc">Ref. ST-101, Et Calacatta Gold Reconstituted Stone, 200/210mm wide - Cistern Cover</td><td class="unit">J</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">G</td><td class="desc">Ref. SW-319, shower curtain rod</td><td class="unit">K</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">G</td><td class="desc">SW-200, Wall Mounted Water Closet</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">G</td><td class="desc">SW-200, Wall Mounted WC</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">G</td><td class="desc">SW-02, Wash Basin Mixer (Single Lever)</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">H</td><td class="desc">SW-200.1, Concealed Cistern Tank</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">H</td><td class="desc">SW-200.1, Concealed Cistern Tank</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">H</td><td class="desc">SW-03, Water Closet (Floor Standing)</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">J</td><td class="desc">D04, Double Leaf Timber Folding Door, size 900mm W x 2200mm H, to Maid&#x27;s Bathroom</td><td class="unit">H</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">J</td><td class="desc">SW-201, Undercounter Wash Basin</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">J</td><td class="desc">SW-201, Undercounter Wash Basin</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">K</td><td class="desc">SW-202, Undermount Bathtub</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">L</td><td class="desc">SW-203, Floor Standing Water Closet</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">L</td><td class="desc">SW-203, Wall Mounted Wash Basin</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">M</td><td class="desc">SW-204, Wall Mounted Wash Basin</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">M</td><td class="desc">SW-204, Wall Mounted Water Closet</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">N</td><td class="desc">SW-205, Shower Tray</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">R</td><td class="desc">SW-309, Linear Shower Drain Cover</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">R</td><td class="desc">SW-309, Tile Insert - Rectangular Shower Drain Cover</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">S</td><td class="desc">Outdoor Shower</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">T</td><td class="desc">Bibb Tap, 15mm diameter</td><td class="unit">Q</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">X</td><td class="desc">Ref. Lf-107, Shower Bench</td><td class="unit">M</td><td class="vend">Sanitaryware</td></tr><tr><td class="idx">E</td><td class="desc">Intercom indoor unit, provision-containment only</td><td class="unit">R</td><td class="vend">Video Intercom</td></tr><tr><td class="idx">F</td><td class="desc">Intercom outdoor unit, provision-containment only</td><td class="unit">R</td><td class="vend">Video Intercom</td></tr><tr><td class="idx">K</td><td class="desc">Secuirty Intercom</td><td class="unit">R</td><td class="vend">Video Intercom</td></tr><tr><td class="idx">A</td><td class="desc">13A Single Switched Socket Outlet</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">A</td><td class="desc">13A Single Switched Socket Outlet</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">A</td><td class="desc">10A 1Way 1Gang lighting switch</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">A</td><td class="desc">10A 1Way 1Gang lighting switch</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">B</td><td class="desc">Local Area Network with all the passive and active components like fiber and copper cables, patch Panels and E</td><td class="unit">Q</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">B</td><td class="desc">13A Single Switched Socket Outlet WP</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">B</td><td class="desc">13A Single Switched Socket Outlet WP</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">B</td><td class="desc">10A 1Way 1Gang lighting switch, W/P</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">B</td><td class="desc">10A 1Way 1Gang lighting switch, W/P</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">C</td><td class="desc">13A Twin Switched Socket Outlet</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">C</td><td class="desc">13A Twin Switched Socket Outlet</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">C</td><td class="desc">10A 1Way 2Gang lighting switch</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">C</td><td class="desc">10A 1Way 2Gang lighting switch</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">D</td><td class="desc">13A Single Switched Socket Outlet with USB</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">D</td><td class="desc">13A Single Switched Socket Outlet with USB</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">D</td><td class="desc">10A 2Way 1Gang lighting switch</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">D</td><td class="desc">10A 2Way 1Gang lighting switch</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">E</td><td class="desc">10A 2Way 2Gang lighting switch</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">E</td><td class="desc">10A 2Way 2Gang lighting switch</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">F</td><td class="desc">13A Unswitched Fused Spur Outlet</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">F</td><td class="desc">13A Unswitched Fused Spur Outlet</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">F</td><td class="desc">10A 1Way 3Gang lighting switch</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">F</td><td class="desc">10A 1Way 3Gang lighting switch</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">G</td><td class="desc">Field devices such as control valves, flow meters, actuators, switches, relays, detectors, and sensors</td><td class="unit">Q</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">G</td><td class="desc">13A Unswitched Fused Spur Outlet, W/P</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">G</td><td class="desc">13A Unswitched Fused Spur Outlet, W/P</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">G</td><td class="desc">10A 2Way 3Gang lighting switch</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">G</td><td class="desc">10A 2Way 3Gang lighting switch</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">H</td><td class="desc">Emergency Switch, (Ref. GD)</td><td class="unit">Q</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">H</td><td class="desc">13A Switched Fused Spur Outlet</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">H</td><td class="desc">13A Switched Fused Spur Outlet</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">J</td><td class="desc">20A DP Switch with Neon Sign Indicator</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">J</td><td class="desc">20A DP Switch with Neon Sign Indicator</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">J</td><td class="desc">13A Override switch</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">J</td><td class="desc">13A Override switch</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">K</td><td class="desc">13A 1Way 1Gang microswitch</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">K</td><td class="desc">13A 1Way 1Gang microswitch</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">L</td><td class="desc">13A Switched Spur Outlet with Neon Sign Indicator for A/C Unit</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">L</td><td class="desc">13A Switched Spur Outlet with Neon Sign Indicator for A/C Unit</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">L</td><td class="desc">Photocell sensor + timer + override switch - for external lighting</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">L</td><td class="desc">Photocell sensor + timer + override switch - for external lighting</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">N</td><td class="desc">Floor Box (13A Single Socket)</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr><tr><td class="idx">N</td><td class="desc">Floor Box (13A Single Socket)</td><td class="unit">R</td><td class="vend">Wiring Accessories</td></tr></tbody></table></div>
+
 
 <footer>
   Generated from TH1 – Equiterra 2 tender docs (WeTransfer 9b811fc0, 2026-04-07). Source: <code>projects/gpcr-th1-estimate/</code> ·
